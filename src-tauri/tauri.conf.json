@@ -2,7 +2,7 @@
   "build": {
     "beforeDevCommand": "npm run dev",
     "beforeBuildCommand": "npm run build",
-    "devPath": "http://localhost:1420",
+    "devPath": "http://localhost:1420/",
     "distDir": "../dist"
   },
   "package": {
@@ -19,8 +19,11 @@
     },
     "windows": [
       {
-        "title": "app-of-jeremy-hedgehogco",
-        "width": 800,
+        "fullscreen": false,
+        "alwaysOnTop": false,
+        "resizable": true,
+        "title": "App of Jeremy Hedgehog&co",
+        "width": 1200,
         "height": 600
       }
     ],
